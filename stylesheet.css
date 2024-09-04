@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body{
+    margin: 0px;
+    padding : 0px;
+    font-family: Roboto, "Times New Roman", sans-serif;
+}
+
+header, footer{
+    background-color: #1F2937;  
+    color : white;
+}
+
+
+#below_nav{
+    display: flex;
+    justify-content: space-between;
+    padding : 80px 0px;
+}
+
+ul{
+    margin : 0px;
+    padding : 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding : 8px;
+}
+
+a{
+    text-decoration: none;
+    color : white;    
+}
+
+li{
+    margin-left : 25px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+#info-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding : 40px 0;
+
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 80px;
+    justify-content: space-between;
+
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+    text-align: center;
+}
+.card div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#quote{
+    background-color: #e5e7eb;
+}
+#quote_text{
+    font-size: 36px;
+    font-style: italic;
+    color : #1f2937;
+    font-weight: lighter;
+}
+#header_logo{
+    font-size: 24px;
+    color : #f9faf8;
+    font-weight: bold;
+}
+
+#hero_main_text{
+    font-size: 48px;
+    font-weight: 900;
+    color : #f9faf8
+}
+
+#secondary, li{
+    font-size: 18px;
+    color : #e5e7eb
+}
+
+button ,#blue_banner{
+    background-color: #3882F6;
+
+}
+
+button{
+    padding : 8px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: white;
+    color: #e5e7eb;
+    
+}
+#below_nav button{    
+    border : none;
+}
+
+
+
+#above_footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 60px;
+}
+
+#blue_banner{
+    padding : 20px 40px;
+}
+
+
+.card img{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+#left50, #right50{
+    width: 50%;
+    
+}
+
+#left50{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+
+}
+
+#right50{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    margin-left : 20px; 
+}
+
+#right50 img{
+    
+    min-width: 100%;
+    height: auto;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    width: 70%;
+    margin : 0 auto;
+}
